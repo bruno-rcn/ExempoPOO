@@ -1,0 +1,4 @@
+Topicos de POO
+
+- Abstracao (transformar um contexto da vida real em class para ser utilizado no codigo)
+- Encapsulamento (protejar a class e definir limites para as propriedades e atributos)
