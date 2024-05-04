@@ -2,3 +2,10 @@ Topicos de POO
 
 - Abstracao (transformar um contexto da vida real em class para ser utilizado no codigo)
 - Encapsulamento (protejar a class e definir limites para as propriedades e atributos)
+- Heranca (permite reutilizar atributos, metodos e comportamentos de metodos em outras classes. Ex. classA tem seus atributos e metodos, seclassB herdar classA a classB tera acesso as coisas da A e utilizar como quiser)
+    Ex: Se vc tem classe Pessoa, Alun0 e Professor.
+            Pessoa contem nome e idade (que aluno e professor tem tbm)
+                Assim, Aluno e Professor herdam Pessoa e agora eles tem Nome e idade e nao precisa repetir o bloco de codigo
+
+- Polimorfismo (pode sobrescrever metodos das classes filhas para ter comportamentos diferentes da class pai)
+    Alterar o metodo apresentar de cada class (Pessoa, Professor, ALuno) para cada um ter sua mensagem

@@ -10,7 +10,7 @@ namespace ExemploPOO.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
-        public void Apresentar()
+        public virtual void Apresentar() // virtual indica que esse metodo pode ser sobrescrito
         {
             Console.WriteLine($"Ola, me chamo {Nome} e tenho {Idade} anos");
         }
