@@ -9,3 +9,16 @@ Topicos de POO
 
 - Polimorfismo (pode sobrescrever metodos das classes filhas para ter comportamentos diferentes da class pai)
     Alterar o metodo apresentar de cada class (Pessoa, Professor, ALuno) para cada um ter sua mensagem
+
+
+- Class Abstrata: um modelo para ser herdado e assim nao possui instancia no codigo
+    Declara os metodos nela mas que utiliza os metodos sao as class que herdam ela
+
+- Classe Selada - Nenhuma class pode ter heranca dela
+    Tambem serve para metodos e propriedades. Tambempodem eistir selados
+    Obs: Class selada nao pode ter class filha e metodo selado nao pode ser sobrescrito
+
+- Class Object - mae de todas as classes. Todas as classes criadas herdam dela direta ou indiretamente servindo servicos de baixo niveis as classes.
+    Ex. Equals, To.String, ...
+
+- Interface - Contrato que pode ser implementado pelas classes. Definindo atributos e metodos para serem implementados por que implementa(herda) a interface nao e instanciada

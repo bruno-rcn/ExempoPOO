@@ -7,6 +7,12 @@ namespace ExemploPOO.Models
 {
     public class Aluno : Pessoa
     {
+
+        public Aluno(string nome) : base(nome) // construtor feito por heranca
+        {
+            
+        }
+
         public double Nota { get; set; }
 
         public override void Apresentar() // override inidca metodo sobrescrito da classe mae
